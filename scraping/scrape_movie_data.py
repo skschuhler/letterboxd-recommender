@@ -13,7 +13,7 @@ df = df[df['Title'].isin(multiple_titles)]
 movie_titles = list(df['Title'].unique())
 
 # API key and base URL for OMDB API
-API_KEY = 'd0a004d1'
+API_KEY = '***'
 BASE_URL = "http://www.omdbapi.com/"
 
 # List of movies
