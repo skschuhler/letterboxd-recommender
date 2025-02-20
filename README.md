@@ -1,6 +1,6 @@
 # letterboxd-recommender
 
-## scraping
+## Scraping
 ### **Overview**  
 This project is an asynchronous web scraper designed to extract user film data from [Letterboxd](https://letterboxd.com/). The scraper retrieves movie ratings, review URLs, and metadata for a given set of users, handling rate-limiting and large datasets efficiently using `aiohttp` and `BeautifulSoup`.  
 
