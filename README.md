@@ -56,7 +56,7 @@ This script implements a **content-based filtering** approach to recommend movie
 
 #### **1. Data Preparation**
 - Loads user ratings, movie metadata, and a list of popular users.
-- Filters data to include only **the first 1000 most active users** and their ratings.
+- Filters data to include only **the top 1000 users** and their ratings.
 - Cleans and processes movie metadata, transforming text fields (e.g., genre, director) into structured lists.
 
 #### **2. Feature Representation Using SBERT**
